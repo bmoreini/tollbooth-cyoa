@@ -1,2 +1,2 @@
-# tollbooth-cyoa
-Web CYOA based loosely on The Phantom Tollbooth by Norton Juster
+# web-cyoa
+HTML+CSS_JS Adventure Game
