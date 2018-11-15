@@ -9,7 +9,7 @@ var answer = null;
 var spin = 0;
 
 function checkAnswers(answer) {  // Matches Scenes  - replace with yours
-	if (answer == "Enter now") {
+	if (answer == "Approach") {
 		enterKingdomOfWisdom();
 	} 
 	else if (answer == "Sleep on it") {
