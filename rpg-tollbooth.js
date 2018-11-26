@@ -1,6 +1,5 @@
 // rpg-tollbooth.js
 
-
 // core variables
 var messages = []; // for a sequence of messages
 var choices = [];
