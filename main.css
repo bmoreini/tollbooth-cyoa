@@ -13,7 +13,7 @@ div{
 
 p {
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 30px;
     background-color: rgb(212, 239, 223  );
     padding:2px;
     margin-top: 29px;
@@ -22,6 +22,7 @@ p {
     margin-left: 14px;
     width: 95%;
     height: 60%;
+    overflow-y: scroll;
 }
 
 select {
