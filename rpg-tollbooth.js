@@ -83,7 +83,7 @@ function discoverTollbooth() {
 }
 
 function tollbooth() {
-  story("You are boy named Milo and you live in a city. You tend to not know what to do with yourself -- not just sometimes, but always. ");
+  story("You are boy named Milo and you live in a city and go to middle school.<br><br> You tend to not know what to do with yourself -- not just sometimes, but always. It's a big problem for you.");
 	choices = ["First Time","Second Life"];
 	answer = setOptions(choices);
 }
