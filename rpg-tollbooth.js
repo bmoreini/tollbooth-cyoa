@@ -1,5 +1,15 @@
 // rpg-tollbooth.js
 
+window.onload = start;
+
+
+
+function start() {
+    setup();
+	/** CHANGE THE FIRST FUNCTION FOR TESTING **/
+    tollbooth();
+}
+
 // core variables
 var messages = []; // for a sequence of messages
 var choices = [];
