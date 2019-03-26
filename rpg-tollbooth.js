@@ -1,21 +1,6 @@
 // rpg-tollbooth.js
 // Matches https://docs.google.com/spreadsheets/d/1-HPjDUlCPRp8DBsYLP08yaWrj2WFL-0JJxIUsnC-gfY/edit#gid=0
-window.onload = start;
-
-
-
-function start() {
-    setup();
-	/** CHANGE THE FIRST FUNCTION FOR TESTING **/
-    tollbooth();
-}
-
-// core variables
-var messages = []; // for a sequence of messages
-var choices = [];
-var answer = null;
-// story function variables
-var spin = 0;
+scene1 = tollbooth;
 
 function checkAnswers(answer) {  // Matches Scenes  - replace with yours
 	if (answer == "First Time") {
@@ -49,8 +34,13 @@ function checkAnswers(answer) {  // Matches Scenes  - replace with yours
 	}
 }
 
+function removeMap(){
+    document.getElementById('border').classList.remove('hide');
+}
+
 //1.1 Opening Scene
 function tollbooth() {
+  setTimeout(removeMap, 2500);
   story("You are boy named Milo and you live in a city and go to middle school.<br><br> You tend to not know what to do with yourself -- not just sometimes, but always. It's a big problem for you.");
 	choices = ["First Time","Second Life"];
 	answer = setOptions(choices);
